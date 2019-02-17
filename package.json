@@ -1,0 +1,29 @@
+{
+  "name": "rest",
+  "version": "1.0.0",
+  "description": "Test app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-watch": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Madek1/rest-api.git"
+  },
+  "author": "Madek1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Madek1/rest-api/issues"
+  },
+  "homepage": "https://github.com/Madek1/rest-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
